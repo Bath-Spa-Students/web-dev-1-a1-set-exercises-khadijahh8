@@ -1,0 +1,45 @@
+h1 {
+    background-color: rgb(234, 149, 149);  /* choosing color of text background*/
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: x-large;
+    margin-left: 0; /* Reset margin for center alignment */
+}
+
+.main {
+    background-image: url("strawberry.jpeg");
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: url("pink/icing.jpeg");
+    background-repeat: no-repeat;
+    background-size: 25%; /* adjusting the size of the background image */
+}
+
+.hclass {
+    background-color: rgb(234, 149, 149);
+    color: rgb(255, 255, 255);
+    margin: 0.5%;
+    padding: 5px;
+    font-size: medium;
+    text-align: left; /* Align text to the maximum left */
+}
+
+
+
+a {
+    color: rgb(154, 62, 108); /* Change the link color to pink */
+}
+
+a:hover {
+    color: rgb(141, 118, 118); /* Change the link color to red when hovered */
+}
+
+.container {
+    max-width: 800px; /* Seting the maximum width of the container to 800 pixels */
+    background-color: black; /* Seting the background color of the container to black */
+    margin: 2rem; 
+    border-radius: 1rem; /* Seting border radius of the container*/
+    margin-left: 0; 
+}
