@@ -1,0 +1,102 @@
+.par-class {
+    text-align:justify;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    color :rgb(0, 0, 0);
+    
+
+}
+  
+
+.h1-class {
+    font-family: "CursiveBrush", "Script MT", cursive; /* changing font style */
+    font-size: 32px;; /*adjesting font to large size */
+    text-align: center;
+    border:0cqb;
+    background-color: antiquewhite;
+    color: black;
+}
+
+
+.navbar-list {
+    border: 0cm;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+   
+    
+}
+
+
+.navbar-list li {
+    margin-right: 20px;
+  
+}
+
+/* Style the navbar */
+#navbar {
+    
+    overflow: hidden;
+    background-color: #f4f2f2;
+  }
+
+
+  
+  /* Navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  
+#navbar {
+    position: fixed; /* Making the navbar fixed */
+    top: 0; /* Positioning it at the top */
+    width: 100%; /* Setting full width */
+}
+
+
+#button {  
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e7e5d2;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    border-radius:10px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#button:hover{
+    
+    background-color: #910707;
+}
+ 
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
