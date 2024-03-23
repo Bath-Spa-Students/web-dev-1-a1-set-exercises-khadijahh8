@@ -1,0 +1,46 @@
+body {
+    cursor: default;
+}
+
+main {
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.navlist {
+    list-style-type:circle;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navlist ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navlist ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+a{
+    color: #fff;
+}
+.resources a{
+    color: rgb(0, 0, 0);
+}
+ 
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  text-align: center;
+
+}
+button.hover{
+    background-color: antiquewhite;
+}
