@@ -1,0 +1,21 @@
+*{overflow: hidden;} /*making the page not scrolling*/
+
+html, body {
+     height: 100%;
+     margin: 0;
+     background-color: rgba(231, 247, 241, 0.77);
+ }
+ 
+ .container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ video{
+     width: 560px; /* Adjust width as needed */
+     height: 315px; /* Adjust height as needed */
+ }
+ 
+
+    
