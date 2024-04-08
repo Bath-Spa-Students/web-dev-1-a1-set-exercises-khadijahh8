@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the color Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Guess the color</h1>
+    
+        <p id="Color">(R ,G , B)</p>
+        <!--button container for guessing the color-->
+        <div id="B">
+           <button class="button" id="0" onclick="guess()"></button>
+           <button class="button" id="1" onclick="guess()"></button>
+           <button class="button" id="2" onclick="guess()"></button>
+         </div>
+
+        <!--REplay button conatiner-->
+         <div id="R">
+            <button id="replay" onclick="replay()">Replay</button>
+         </div>
+    <!--connecting the javaScript file-->
+      <script src="java.js"></script>  
+    </main>
+    
+</body>
+</html>

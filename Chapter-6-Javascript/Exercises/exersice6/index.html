@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculater</title>
+   <!--linking external javascript file-->
+   <script src="java.js"></script>
+   <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="petrol.png" type="image/x-icon"> 
+</head>
+<body>
+<!--adding image-->
+    <img  class="image" src="petrol.png" alt="side picture" width=190 height=190> <!--adding imag link and prperties-->
+
+    <div class="content">
+
+        <h1>Petrol Calculater</h1>
+        <!--instruction for the user-->
+        <p><B>Note:</B> to calculte, enter the cost of petrol per liter <br>
+        and the number of liters purchased</p> <br>
+        <!--input field for the user to enter the cost -->
+        <label for="Cost">Cost of petrol per liter:</label>
+        <!--min attribute is specifie the minimum value allowed, value is to set the intial value to (1.72)-->
+        <input type="Number" id="Cost" min="0" step="0.01" value="1.72">
+        <br><br>
+        <label for="Liters">Number of liters purchased:</label>
+        <input type="Number" id="Liters" min="0" step="0.01" value="0">
+        <!--line breaking space-->
+        <br><br>
+
+        <!-- A function in javascript onclick which calculte the total when the button is clicked-->
+        <button onclick="calculateTotal()">Calculate total Cost</button>
+        <p id="totalCost"></p>
+     </div>
+</body>
+</html>
