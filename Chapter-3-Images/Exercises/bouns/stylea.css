@@ -1,0 +1,34 @@
+div {
+    display: inline-block; /* making elements behave like inline elements*/
+    font-family: sans-serif; /* cahnging font size */
+    font-size: 20px;
+    margin: 25px; /* setting margin(space between element's border) in all sides to 25pixel*/
+    border: 4px solid black;
+    line-height: 100px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+  }
+  
+  body {
+    margin: 100px auto;
+    width: max-content;
+  }
+/*adding three diffrent box shadows wirh diffrent colors*/
+#C{
+    display: inline-block;
+    border:1px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 5px #e8ab1c,
+    0px 0px 0px 15px #1837d2,
+    0px 0px 0px 25px #da1a1a,
+    0px 0px 0px 35px #18980f ;
+    border-radius: 25px;
+}
+/* adding text shadow with the color black and adding color to the border*/
+#D{
+    border: 4px solid rgb(175,24,24);
+    text-shadow: 5px 5px 1px rgba(0, 0, 0) ;
+    
+}
