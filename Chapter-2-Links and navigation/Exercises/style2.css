@@ -1,3 +1,33 @@
+table{
+    font-family: arial, sans-serif; 
+    border-collapse: collapse;
+    width: 100%;
+
+   }
+
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+     }
+
+     tr:nth-child(even){background-color: #f2f2f2;}
+     tr:hover {background-color: #ddd;}
+
+    th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #5c5218;
+    color: white;
+     }
+    
+     nav {
+        position: sticky;
+     }
+
+
+
 .par-class {
     text-align:justify;
 }
@@ -22,7 +52,7 @@ body {
 
 
 .navbar-list {
-    border: 0cm;
+    border: 1cm;
     margin: 0;
     padding: 0;
     display:flex;
@@ -82,21 +112,3 @@ body {
     
     background-color: #910707;
 }
- 
-
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
