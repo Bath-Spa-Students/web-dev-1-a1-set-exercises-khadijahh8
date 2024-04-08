@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="style4b.css">
     <style>
         table, th, td {
-           border:1px solid black;
-                                     }
+           border:1px solid black; /* inline css for table border*/                         
+        }
     </style>
 </head>
 <body>
     <header>
-    <h1>Web Development Study Plan</h1> 
+    <h1>Web Development Study Plan</h1> <!--header section for title-->
     <nav>
     <ul>
-    <li><a href ="#A">Main page</a></li>
+    <li><a href ="#A">Main page</a></li> <!--navigation links-->
     <li><a href ="#B">Module</a></li>
     <li><a href ="#C">Resources</a></li>
     </ul>
@@ -27,6 +27,7 @@
     <main>
         <section>
             <h2>The Study plan table</h2>
+            <!--table for displaying study plan-->
             <table style="width:100%">
                 <tr>
                   <th style=" background-color:antiquewhite">Chapter</th>
@@ -62,7 +63,7 @@
               
         </section>
         <section>
-            <h2>Additional Resources</h2>
+            <h2 id="C">Additional Resources</h2>
             <ul >
                 <li>W3Schools</li> 
                 <li>MDN Web Docs</li>
